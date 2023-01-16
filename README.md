@@ -1,4 +1,4 @@
-# MultiThreadSocketsComsBankSimulation
+# MultiThreadSocketComsBankSimulation
 
 this here is a project made for the psr subject by ben mansour mahdi
 Do note that all of this code is not industry oriented but is instsead made for the sake of experimentation
