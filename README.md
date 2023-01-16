@@ -4,7 +4,7 @@ this here is a project made for the psr subject by ben mansour mahdi
 Do note that all of this code is not industry oriented but is instsead made for the sake of experimentation
 mainly with multithread programming aka parallel processing and sockets tcp communication over lan 
 
-#Bank Simulation
+# Bank Simulation
 
 in the context of multithreading  subject in the second year of engineering in enicarthage 
 i (inube) have been assigned this project which is basically a simulation of a local bank agency responsible of keeping 
@@ -13,7 +13,9 @@ more details in the pdf in this repository
 
 
 
-notes and optimization for the future :
+# Notes
+
+## notes and optimization for the future :
 +in the future i will add a little bit of coding to make use of the arp algorithms for automatic detection of the open sockets serving this application
 from the client side 
 +also a better file management method is in order 
