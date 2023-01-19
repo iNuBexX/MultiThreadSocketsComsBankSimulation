@@ -46,8 +46,6 @@ class ClientThread(threading.Thread):
                 else:
                     msg="Not a known action"
                     self.csocket.send(bytes(msg,'UTF-8'))
-            else:
-                self.csocket.send(bytes("hello",'UTF-8')) 
 
         print("Client at ", clientAddress , " disconnected...")   
 #end of class
@@ -96,7 +94,7 @@ def GetSold(ref):
         if int(columns[0])==int(ref):
             sign = -1 if columns[2]=="Negativ"  else 1
             accounts.close()
-            msg="\nyour balance is:{}".format(int(columns[1])*sign)   
+            msg="\nyour solde is:{}".format(int(columns[1])*sign)   
             return  msg
     return "account not found!"
 
@@ -300,7 +298,7 @@ def Deposit(ref,amount):
         
               
 LOCALHOST = "127.0.0.1"
-PORT = 8080
+PORT = 8084
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #type=socket.SOCK_DGRAM for udp
 

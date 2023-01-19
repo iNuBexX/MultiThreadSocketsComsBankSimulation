@@ -1,7 +1,6 @@
 
 import os
 import socket
-
 clear = lambda: os.system('cls')
 def viewsold_c(client):
   clear()
@@ -75,7 +74,7 @@ def queryuser(client):
 #def withdraw():
 #  client.sendall(bytes(out_data,'UTF-8'))  
 SERVER = "127.0.0.1"
-PORT = 8080
+PORT = 8082
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((SERVER, PORT))
 client.sendall(bytes("hello",'UTF-8'))
