@@ -297,8 +297,8 @@ def Deposit(ref,amount):
         return False       
         
               
-LOCALHOST = "127.0.0.1"
-PORT = 8084
+LOCALHOST = "192.168.1.17" #whatever the loca ipconfig / ifconfig / ipaddr gives u 
+PORT = 8080
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #type=socket.SOCK_DGRAM for udp
 

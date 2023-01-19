@@ -73,8 +73,8 @@ def queryuser(client):
     transaction_c()
 #def withdraw():
 #  client.sendall(bytes(out_data,'UTF-8'))  
-SERVER = "127.0.0.1"
-PORT = 8082
+SERVER = "192.168.56.1"
+PORT = 8080
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((SERVER, PORT))
 client.sendall(bytes("hello",'UTF-8'))
