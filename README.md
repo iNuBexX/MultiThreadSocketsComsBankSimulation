@@ -16,7 +16,7 @@ more details in the pdf in this repository
 # Notes
 
 ## notes and optimization for the future :
-+in the future i will add a little bit of coding to make use of the arp algorithms for automatic detection of the open sockets serving this application
++in the future i will add a little bit of coding to make use of the arp algorithms for automatic detection of the open sockets surving this application
 from the client side 
 +also a better file management method is in order 
 +eliminate the os cls methods as they are windows specific 
